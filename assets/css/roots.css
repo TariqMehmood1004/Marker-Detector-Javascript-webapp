@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400&display=swap");
+
+
+/*root directory for fonts */
+:root {
+    --Open-Sans-FontFamily: "Open Sans", sans-serif;
+    --Roboto-Sans-FontFamily: "Roboto", sans-serif;
+    --Proxima-nova-font-family: "proxima-nova", sans-serif;
+    --calibri-font: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    font: 62.5%/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--main-color);
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: auto;
+}
+
+/* colors root */
+:root {
+    --Color-White-1: #ffffff;
+    --blue-shaded-color: #00f1ff;
+    --off-black-color: #2f2f2f;
+    --grey-color: #727272;
+    --blue-color: #010042;
+    --green-color: #bdbec8;
+    --text-color: #000042;
+    --black-color: #111312;
+    --box-color: #efefef;
+    --light-color: #f0f0f0;
+    --dark-color: #2d2d34;
+    --box-shadow: 0px 5px 25px 0px rgba(116.22717391304349, 153.01776465028357, 163.5, 0.32);
+    --heavy-blue-color: #111936;
+    --low-blue-color: #212946;
+    --text-blue-color: #7267ef;
+    --text-blue-rgba-color: rgb(114, 103, 239);
+    --text-para-color: #8492c4;
+    --btn-back-color: #29314f;
+}
+
+/* font size root */
+:root {
+    --font-size-8: 8px;
+    --font-size-10: 10px;
+    --font-size-12: 12px;
+    --font-size-14: 14px;
+    --font-size-16: 16px;
+    --font-size-18: 18px;
+    --font-size-20: 20px;
+    --font-size-22: 22px;
+    --font-size-24: 24px;
+    --font-size-26: 26px;
+    --font-size-28: 28px;
+    --font-size-30: 30px;
+    --font-size-32: 32px;
+    --font-size-34: 34px;
+    --font-size-36: 36px;
+    --font-size-38: 38px;
+    --font-size-40: 40px;
+}
+
+/* root for font family */
+:root {
+    --Poppins-sans-serif-font: "Poppins", Sans-serif;
+}
+
+/* font weight root */
+:root {
+    --font-weight-100: 100;
+    --font-weight-120: 120;
+    --font-weight-140: 140;
+    --font-weight-160: 160;
+    --font-weight-180: 180;
+    --font-weight-200: 200;
+    --font-weight-220: 220;
+    --font-weight-240: 240;
+    --font-weight-260: 260;
+    --font-weight-280: 280;
+    --font-weight-300: 300;
+    --font-weight-320: 320;
+    --font-weight-340: 340;
+    --font-weight-360: 360;
+    --font-weight-380: 380;
+    --font-weight-400: 400;
+    --font-weight-420: 420;
+    --font-weight-440: 440;
+    --font-weight-460: 460;
+    --font-weight-480: 480;
+    --font-weight-500: 500;
+    --font-weight-520: 520;
+    --font-weight-540: 540;
+    --font-weight-560: 560;
+    --font-weight-580: 580;
+    --font-weight-600: 600;
+    --font-weight-650: 650;
+    --font-weight-680: 680;
+    --font-weight-700: 700;
+    --font-weight-bold: bold;
+}

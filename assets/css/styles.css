@@ -1,0 +1,64 @@
+@import url('./roots.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font: 62.5%/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--main-color);
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    -webkit-overflow-scrolling: auto;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+    font-size: var(--font-size-14);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 2rem 0rem;
+}
+
+#myVideoDetector,
+#myCanvasDetector {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 90vh;
+    border-radius: 30px;
+    border: 5px solid #14151500;
+    object-fit: cover;
+    transition: border 500ms;
+}
+
+#myVideoDetector:hover,
+#myCanvasDetector:hover {
+    border: 5px solid #6135ff;
+}
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: red;
+    width: 100%;
+    height: 100%;
+}
